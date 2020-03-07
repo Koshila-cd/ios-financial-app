@@ -15,6 +15,7 @@
 		4565CD1D24137EE3005151B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4565CD1B24137EE3005151B2 /* LaunchScreen.storyboard */; };
 		4565CD2824137EE3005151B2 /* financial_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565CD2724137EE3005151B2 /* financial_appTests.swift */; };
 		4565CD3324137EE3005151B2 /* financial_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565CD3224137EE3005151B2 /* financial_appUITests.swift */; };
+		4565CDC72413C411005151B2 /* SavingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565CDC62413C411005151B2 /* SavingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4565CD2E24137EE3005151B2 /* financial-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "financial-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4565CD3224137EE3005151B2 /* financial_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financial_appUITests.swift; sourceTree = "<group>"; };
 		4565CD3424137EE3005151B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4565CDC62413C411005151B2 /* SavingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				4565CD0E24137EE0005151B2 /* financial-app */,
-				4565CD2624137EE3005151B2 /* financial-appTests */,
 				4565CD3124137EE3005151B2 /* financial-appUITests */,
 				4565CD0D24137EE0005151B2 /* Products */,
 			);
@@ -107,6 +108,7 @@
 				4565CD1624137EE0005151B2 /* financial_app.xcdatamodeld */,
 				4565CD1B24137EE3005151B2 /* LaunchScreen.storyboard */,
 				4565CD1324137EE0005151B2 /* Main.storyboard */,
+				4565CD2624137EE3005151B2 /* financial-appTests */,
 			);
 			path = "financial-app";
 			sourceTree = "<group>";
@@ -132,6 +134,7 @@
 		4565CD40241384EC005151B2 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				4565CDC62413C411005151B2 /* SavingsViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4565CDC72413C411005151B2 /* SavingsViewController.swift in Sources */,
 				4565CD1824137EE0005151B2 /* financial_app.xcdatamodeld in Sources */,
 				4565CD1224137EE0005151B2 /* ViewController.swift in Sources */,
 				4565CD1024137EE0005151B2 /* AppDelegate.swift in Sources */,
